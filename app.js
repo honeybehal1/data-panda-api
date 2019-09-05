@@ -4,7 +4,7 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 var nodemon = require('nodemon');
-const mongoose = require('mongoose');
+var mongoose = require('mongoose');
 
 
 mongoose.connect('mongodb://localhost/database');

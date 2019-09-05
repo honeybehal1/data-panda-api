@@ -4,11 +4,16 @@ const Schema = mongoose.Schema;
 const UserRegistration = new Schema({
     email: {
         type: String,
-        required: [true, 'Email is required']
+        required: [true, 'Email is required'], unique: true
     },
     password: {
         type: String,
         required: [true, 'Password is required']
+    },
+
+    timeOfRegistartion: {
+        type: Date,
+        default: Date.now
     }
 });
 

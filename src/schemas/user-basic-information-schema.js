@@ -5,7 +5,7 @@ let UserBasicInformation = new Schema({
     userId: {
         type: String
     },
-    name: {
+    firstName: {
         type: String
     },
     middleName: {

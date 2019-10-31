@@ -8,6 +8,7 @@ var mongoose = require('mongoose');
 
 
 mongoose.connect('mongodb://localhost/database');
+//mongoose.connect('mongodb+srv://honey_behal:88914170Jaimatadi@mycluster-lff62.gcp.mongodb.net/test?retryWrites=true&w=majority');
 mongoose.Promise = global.Promise;
 
 //var indexRouter = require('./src/routes/index');
